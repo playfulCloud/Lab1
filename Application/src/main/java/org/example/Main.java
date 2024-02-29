@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.zipperTool.Zipper;
+
 //TODO:
 //TODO: zipowac wybrane pliki i katologi
 //TODO: obliczyc funkcje md5 dla zipowanego katalogu
@@ -10,6 +12,7 @@ package org.example;
 //TODO: jlink i środowisko uruchomieniowe
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Zipper.zipEverything(\);
     }
+
 }
