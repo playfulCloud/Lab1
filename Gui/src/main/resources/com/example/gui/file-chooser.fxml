@@ -20,8 +20,8 @@
     </top>
 
 
-    <bottom>
+    <center>
         <Label fx:id="label" text="Label" BorderPane.alignment="CENTER" />
-    </bottom>
+    </center>
 
 </BorderPane>
