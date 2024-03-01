@@ -9,9 +9,13 @@
 <?import javafx.scene.layout.HBox?>
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gui.FileChooserController">
     <top>
-        <HBox spacing="10" alignment="CENTER"> <!-- Dodano HBox -->
-            <Button fx:id="buttonChooseFile" mnemonicParsing="false" onAction="#buttonChooseFileAction" text="Add File Button"/>
-            <Button fx:id="buttonChooseDirectory" mnemonicParsing="false" onAction="#buttonChooseDirectoryAction" text="Add Directory Button"/>
+        <HBox spacing="5" alignment="CENTER"> <!-- Dodano HBox -->
+            <Button fx:id="buttonChooseFile" mnemonicParsing="false" onAction="#buttonChooseFileAction" text="Add File"/>
+            <Button fx:id="buttonChooseDirectory" mnemonicParsing="false" onAction="#buttonChooseDirectoryAction" text="Add Directory"/>
+            <Button fx:id="zipEverything" mnemonicParsing="false" onAction="#zipSelectedFiles" text="Zip selected files"/>
+            <Button fx:id="clearPaths" mnemonicParsing="false" onAction="#clearSelectedFiles" text="Clear selected"/>
+            <Button fx:id="generate" mnemonicParsing="false" onAction="#generateMdb5ForFile" text="Generate Md5"/>
+            <Button fx:id="compare" mnemonicParsing="false" onAction="#compareMdb5" text="Compare md5"/>
         </HBox>
     </top>
 
