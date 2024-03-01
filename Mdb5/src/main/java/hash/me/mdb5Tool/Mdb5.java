@@ -1,4 +1,4 @@
-package org.example.mdb5Tool;
+package hash.me.mdb5Tool;
 
 import java.io.FileWriter;
 import java.io.IOException;

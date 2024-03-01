@@ -1,3 +1,3 @@
 module Mdb5 {
-    exports org.example.mdb5Tool;
+    exports hash.me.mdb5Tool;
 }

@@ -1,6 +1,6 @@
-package org.example;
+package hash.me;
 
-import org.example.mdb5Tool.Mdb5;
+import hash.me.mdb5Tool.Mdb5;
 
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
